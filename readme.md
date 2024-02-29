@@ -1,0 +1,1 @@
+# test project to try beans auto-injection by generate actions, intention, postfix templates or completions
