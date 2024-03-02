@@ -13,7 +13,9 @@ public class TestSetterInjectionByCompletion {
 
     private Bean2 bean22;
 
+
     // try beans injections by completion inside the method: the setter injection style should be preserved
+    // no unexpected scrolling down should occur
     public void display(){
         System.out.println("======= setter injection test:");
         System.out.println(bean0);
@@ -21,6 +23,21 @@ public class TestSetterInjectionByCompletion {
 
     }
     private void someDummyMethodWithLongBody(){
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
         System.out.println();
         System.out.println();
         System.out.println();
